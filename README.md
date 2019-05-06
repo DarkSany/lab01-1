@@ -49,7 +49,7 @@ $ echo ${PATH}   #Вывести значение переменной PATH
 $ export PATH=${PATH}:`pwd`/node/bin #Запись нового значения в PATH
 $ echo ${PATH} #Вывод значения в PATH
 #/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sergeymarti/SergeyMarti/workspace/node/bin
-$ mkdir scripts  #Создание папки scripts
+$ mkdir scripts  #Создание директории scripts
 $ cat > scripts/activate<<EOF #Запись строки в scripts
 export PATH=\${PATH}:`pwd`/node/bin
 EOF
